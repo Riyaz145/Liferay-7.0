@@ -12,8 +12,7 @@ main() {
 }
 
 show_motd() {
-  echo "Starting Liferay 7.1 instance.
-
+  echo "Starting Liferay 7 instance.
   LIFERAY_HOME: $LIFERAY_HOME
   "
 }
@@ -69,7 +68,6 @@ prepare_liferay_osgi_configs_directory() {
   If you wish to deploy custom OSGi configurations to
   Liferay make sure you include a 'configs/osgi' directory
   in the root of your project.
-
   Continuing.
   "
     return 0
@@ -95,7 +93,6 @@ prepare_liferay_portal_properties() {
   If you wish to use a custom properties file make sure
   you include a 'configs/portal-ext.properties' file in the 
   root of your project.
-
   Continuing.
   "
     return 0
@@ -117,7 +114,6 @@ prepare_liferay_tomcat_config() {
   If you wish to provide custom tomcat JVM settings, make sure
   you include a 'configs/setenv.sh' file in the 
   root of your project.
-
   Continuing.
   "
     return 0
